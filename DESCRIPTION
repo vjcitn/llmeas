@@ -1,0 +1,23 @@
+Package: llmeas
+Title: measurement of CPU and GPU usage
+Version: 0.0.1
+Authors@R:
+    c(person(given = "Vince",
+           family = "Carey",
+           role = c("aut", "cre"),
+           email = "stvjc@channing.harvard.edu",
+           comment = c(ORCID = "0000-0003-4046-0063")), 
+     person(given="Claude", family="Sonnet", role="eng"))
+Description: Currently focused on M-class macs, using macmon
+Depends: R (>= 4.1.0)
+Imports: dplyr, purrr, jsonlite, tibble
+Suggests: knitr, BiocStyle, testthat, rmarkdown
+License: Artistic-2.0
+VignetteBuilder: knitr
+biocViews: Infrastructure
+Encoding: UTF-8
+URL: https://github.com/vjcitn/llmeas
+BugReports: https://github.com/vjcitn/llmeas/issues
+SystemRequirements:
+	https://github.com/vladkens/macmon
+Config/roxygen2/version: 8.0.0
